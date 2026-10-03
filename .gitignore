@@ -1,0 +1,28 @@
+# Local documents and split configurations
+*.[pP][dD][fF]
+/splits.json
+/splits.local*.json
+/parts/
+/outputs/
+.split-pdf-*/
+
+# Python environments, caches, and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local settings and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
